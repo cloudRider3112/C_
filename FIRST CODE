@@ -1,0 +1,14 @@
+include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+   int i=10;
+   int *p;
+   p=&i;
+   *p=5;
+   printf(" la valeur de i est %d est de *p = %d",i,*p);
+    return 0;
+}
+ 
